@@ -1,0 +1,4 @@
+'关闭阴影
+skinparam Shadowing false
+'设置默认字体
+skinparam DefaultFontName "'Microsoft YaHei','Source Han Sans','JetBrains Mono',Consolas,Monaco"
