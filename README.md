@@ -1,0 +1,2 @@
+# plantuml-skin
+PlantUML Skin
