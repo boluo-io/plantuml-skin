@@ -6,7 +6,7 @@
 
 ```plantuml
 @startuml
-!include skin-default.puml
+!include https://raw.githubusercontent.com/boluo-io/plantuml-skin/master/skin-default.puml
 
 == 登录过程 ==
 
@@ -33,4 +33,4 @@ end
 ```
 
 ### Image
-![](https://raw.githubusercontent.com/ken-io/plantuml-skin/master/preview/preview-skin-default.png)
+![](https://raw.githubusercontent.com/boluo-io/plantuml-skin/master/preview/preview-skin-default.png)
