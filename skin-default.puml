@@ -1,4 +1,19 @@
 '关闭阴影
 skinparam Shadowing false
 '设置默认字体
+skinparam DefaultFontSize 14
+skinparam DefaultFontStyle Normal
+skinparam DefaultFontColor #000000
 skinparam DefaultFontName "'Microsoft YaHei','Source Han Sans','JetBrains Mono',Consolas,Monaco"
+
+skinparam Sequence {
+    GroupBorderColor #444444
+    DividerBorderColor #444444
+    GroupBorderThickness 1.6
+    DividerBorderThickness 1.6
+}
+
+skinparam Participant {
+    FontSize 16
+    'FontStyle Bold
+}
