@@ -1,0 +1,57 @@
+!define MyGray #666666
+!define MyBlue #1E88E5
+!define MyDeepBlue #1565C0
+!define MyLightGray #888888
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+skinparam ComponentStyle uml2
+skinparam Shadowing false
+
+skinparam Default {
+    FontName "'Microsoft YaHei','Source Han Sans','JetBrains Mono',Consolas,Monaco"
+    FontColor Black
+    FontSize  14
+    FontStyle plain
+    TextAlignment center
+    BackgroundColor MyDeepBlue
+    BorderColor MyGray
+    ArrowColor Black
+}
+
+skinparam Note {
+    BackgroundColor MyBlue
+    BorderColor MyLightGray
+    BorderThickness 1
+    FontColor White
+    TextAlignment left
+}
+
+skinparam Sequence {
+    BackgroundColor MyLightGray
+    BorderColor MyLightGray
+    LifeLineBorderColor Black
+    GroupBorderThickness 1.5
+    GroupBorderColor MyBlue
+    GroupBackgroundColor MyBlue
+    GroupHeaderFontColor White
+    'DividerBorderColor MyBlue
+    'DividerBackgroundColor MyBlue
+    DividerBorderThickness 1
+    ArrowColor Black
+    ArrowThickness 1
+}
+
+skinparam Participant {
+    BackgroundColor MyDeepBlue
+    BorderColor MyDeepBlue
+    FontColor White
+    FontSize 16
+}
+
+skinparam Partition {
+    BorderColor MyGray
+    BorderStyle dashed
+    BorderThickness 1
+}
+
